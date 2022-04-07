@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.nahid.grpc";
+option java_package = "com.rifat.grpc";
 
 service user{
   rpc registration(RegistrationRequest)  returns (APIResponse);
